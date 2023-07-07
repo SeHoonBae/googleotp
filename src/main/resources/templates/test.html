@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>OTP Registration</title>
+</head>
+<body>
+<h1>Register your OTP</h1>
+<form action="/verify" method="post">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+    <br>
+    <label for="otp">OTP:</label>
+    <input type="text" id="otp" name="otp" required>
+    <br>
+    <input type="submit" value="Verify">
+</form>
+<div>
+    <p>Register your OTP with the following URL:</p>
+</div>
+</body>
+</html>
